@@ -1,4 +1,4 @@
-console.log("Cześć szanowni Developerzy");
+console.log("Cześć szanowni Developerzy. Jak sie dziś macie?");
 
 let nav__themButton = document.querySelector(".nav__themButton");
 let body = document.querySelector(".body");
