@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+  max-width: 1000px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.2;
+  margin: 1% auto;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.unorderedList {
+  padding-top: 5px;
+}
+.nav {
+  border-bottom: 2px solid black;
+  color: #060606;
+  background-color: bisque;
+  padding-left: 20px;
+}
+
+.listItem {
+  margin: 0 auto;
+  display: inline-block;
+  list-style: none;
+}
+
+.buttonLineUp {
+  text-align: right;
+  padding-right: 20px;
+  list-style: none;
+}
+.themButton {
+  cursor: pointer;
+}
+
+.linkNav {
+  color: black;
+  text-decoration: none;
+  background-color: bisque;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.linkNav__bottom {
+  color: black;
+  text-decoration: none;
+  background-color: bisque;
+  /* padding-left: 20px;
+  padding-right: 10px; */
+  width: 80%;
+}
+
+.linkNav:hover {
+  color: brown;
+}
+.start {
+  text-align: left;
+  padding-left: 10px;
+}
+.aside {
+  background-color: rgba(248, 166, 65, 0.783);
+  max-width: 1000px;
+  line-height: 2.2;
+}
+
+.Connected {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.header {
+  color: hsl(0, 0%, 0%);
+  background-color: #d98f19;
+  text-align: center;
+  line-height: 2.2;
+}
+
+.importantWork {
+  color: hsl(33, 86%, 60%);
+}
+
+.allTopics {
+  /* background-color: bisque; */
+  max-width: 1000px;
+}
+
+.dark {
+  background-color: rgb(49, 48, 48);
+  color: bisque;
+}
+
+.link {
+  padding: 2px 2px 2px 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:focus {
+  outline: 1px solid currentColor;
+}
+
+.link:hover {
+  color: red;
+  border-bottom: 1px solid;
+  outline: none;
+}
+
+.footer {
+  color: #d98f19;
+  background-color: #dddddd80;
+  text-align: right;
+  max-width: 1000px;
+  padding-right: 20px;
+}
+
+.caption {
+  text-align: right;
+  font-weight: 600;
+  caption-side: bottom;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
+.tableCell {
+  border: 1px solid #ccc;
+  border-width: 0 0 1px;
+  padding: 20px;
+  text-align: center;
+}
+.tableHeader {
+  background-color: bisque;
+  font-weight: bolder;
+  color: black;
+}
+
+.tableRow:nth-child(even) {
+  background-color: rgb(128, 192, 248);
+}
+
+.tableRow:hover {
+  background-color: rgb(148, 169, 188);
+}
+
+.containerTable {
+  overflow-x: auto;
+}

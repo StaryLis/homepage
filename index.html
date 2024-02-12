@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizytówka</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <script defer src="js/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="body__header">
+      <h1>Nazywam się Tomek</h1>
+    </header>
+    <nav class="nav">
+       
+        <li class="nav__listItem">
+          <a class="nav__link" href="#powiazane">Powiązane</a>
+        </li>
+        <li class="nav__listItem">
+          <a class="nav__link" href="#rowery">Rowery</a>
+        </li>
+        <li class="nav__buttonLineUp">
+          <form action="https://google.com/search">
+            <button>Szukaj:</button>
+            <input name="q" />
+          </form>
+        </li>
+      </ul>
+      <p class="nav__buttonLineUp">
+        <button class="nav__themButton">
+          Zmiana tła na <span class="nav__themName">ciemne</span>
+        </button>
+      </p>
+    </nav>
+
+    <main>
+      <h2 class="main__start">oto <i>parę słów</i> o mnie</h2>      
+      
+        <article class="article article__allTopics" id="ruch">
+          <h2 class="article__header">Moją pasją jest ruch</h2>
+          <img
+            class="image"
+            width="200"
+            height="100"
+            src="https://i.postimg.cc/SN2sy4kq/Rower-Fixie.jpg"
+            alt="Rower Fixie"
+          />
+          <img
+            class="image"
+            width="200"
+            height="100"
+            src="https://i.postimg.cc/wTCBMrjN/Surfer-Po-Skoku.jpg"
+            alt="Surfer po skoku"
+          />
+          <img
+            class="image"
+            width="200"
+            height="100"
+            src="https://i.postimg.cc/sg0hxhNf/Hockey-Smile.jpg"
+            alt="Uśmiech Hokeisty"
+          />
+          <p class="article__paragraph">
+            <strong>Zwykła jazda rowerem </strong> bez celu albo tam gdzie chcę
+            lub muszę być <br />
+            ale lubię też <strong>kite surfing</strong> i
+            <em>hockey na lodzie</em> choć dopuszczam rolki bo z lodem bywa
+            <b>krucho</b>
+          </p>
+        </article>
+      
+    </main>
+    <footer class="footer">
+      <p>copy rights: Tomasz's Fixed on Motion Corporation</p>
+    </footer>
+    
+      <aside class="aside" id="powiazane">
+        <h2 class="aside__connected">Powiązane</h2>
+        <ul>
+          <li class="aside__listItem">
+            <a
+              class="aside__link"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://e-velomania.pl/Rower-Cannondale-Topstone-4-Czarny"
+              title=" Sklep e-velomania w Gdyni"
+              >e-velomania</a
+            >
+          </li>
+          <li class="aside__listItem">
+            <a
+              class="aside__link"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="http://olbrychskisport.pl/"
+              title="Szkoła Kite Surfingu w Rewie"
+              >Olbryhski Sport</a
+            >
+          </li>
+          <li class="aside__listItem">
+            <a
+              class="aside__link"
+              rel="noreferrer noopener"
+              target="_blank"
+              title="Szkoła Hockey'a dla młodych i starych"
+              href="https://ahw.com.pl/"
+              >Akademia Hockeyowa Wróbla</a
+            >
+          </li>
+          <li class="aside__listItem">
+            <a
+              class="aside__link"
+              rel="noreferrer noopener"
+              target="_blank"
+              title="Sprzęt Filmowy i fotograficzny"
+              href="https://www.cyfrowe.pl/aparaty.html"
+              >Cyfrowe</a
+            >
+          </li>
+        </ul>
+      </aside>
+    
+    
+      <article class="article" id="rowery">
+        <h2>Jak rower na nas wpływa</h2>
+        <p>
+          Rower <strong>nie pływa</strong> ale oddziałuje na użytkownika.
+          Poniżej jest zestawienie typów rowerów i tego co z nami robią
+        </p>
+        
+          <table class="table">
+            <caption class="table__caption">
+              Rowery i ich wpływ na człowieka
+            </caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="col">Rower</th>
+                <th class="table__cell table__header" scope="col">Wpływ Dobry</th>
+                <th class="table__cell table__header" scope="col">
+                  Wpływ Mniej Dobry
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Fixie</th>
+                <td class="table__cell">Zręczność i siła</td>
+                <td class="table__cell">
+                  Przejeżdżają na czerwonym świetle 🚦😱
+                </td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Góral</th>
+                <td class="table__cell">Reflex i Siła</td>
+                <td class="table__cell">Lądują na drzewach 🌲</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Holender</th>
+                <td class="table__cell">Na płaskim jeździ</td>
+                <td class="table__cell">Na górkach tylko w dół</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="row">Rower Stary</th>
+                <td class="table__cell">
+                  Nikt go nie buchnie 😝 Spala tłuszcz bo go najczęciej używamy
+                  czyli ratuje życie żarłokom. 🧁 🔄
+                </td>
+                <td class="table__cell">Trzeba zreperować 🧑‍🏭</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table__row">
+                <th class="table__cell table__header" scope="row" colspan="2">
+                  Podsumowanie:
+                </th>
+                <td class="table__cell">Uważaj co czynisz</td>
+              </tr>
+            </tfoot>
+          </table>
+        
+      </article>
+    
+   
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__listItem">
+          <a class="nav__link" href="#top">Na poczatek</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
